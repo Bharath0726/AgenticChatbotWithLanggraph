@@ -1,0 +1,17 @@
+[project]
+name = "agenticchatbot"
+version = "0.1.0"
+description = "Agentic Chatbot based on langgraph"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langgraph",
+    "langchain-community",
+    "langchain-core",
+    "langchain-groq",
+    "langchain-openai",
+    "faiss-cpu",
+    "streamlit",
+    "tavily-python",
+]
